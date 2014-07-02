@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'hiera-xml'
-  s.version     = '0.1.0'
-  s.date        = '2014-06-25'
+  s.version     = '0.1.1'
+  s.date        = '2014-06-27'
   s.summary     = "Hiera XML backend"
   s.description = "Hiera XML backend"
   s.authors     = ["Daniel Popov"]

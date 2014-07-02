@@ -13,7 +13,9 @@ The following is an example hiera.yaml configuration for use with hiera-xml
       - xml
 
     :xml:
-      :file: /path/to/xml/file
+      :data-source:
+       - /path/to/xml/file1.xml
+       - /path/to/xml/file2.xml
       :paths:
        - "//deployment[@name='%{::hostname}']"
        - "//deployment[@name='%{::deployment}']/vm[server_name='%{::hostname}']"
